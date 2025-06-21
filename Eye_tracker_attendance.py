@@ -11,7 +11,7 @@ from scipy.spatial import distance as dist
 detector = dlib.get_frontal_face_detector()
 
 # Correct path to the shape predictor file
-predictor_path = "C:/Eye_blinking_demo_project/shape_predictor_68_face_landmarks_correct.dat"
+predictor_path = "shape_predictor_68_face_landmarks.dat"
 predictor = dlib.shape_predictor(predictor_path)
 
 
